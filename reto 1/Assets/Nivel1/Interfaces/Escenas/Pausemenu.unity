@@ -1169,8 +1169,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 241, y: -10}
-  m_SizeDelta: {x: 1427, y: 807}
+  m_AnchoredPosition: {x: 235.74713, y: 34}
+  m_SizeDelta: {x: 1682.6394, y: 901.5515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481053417
 MonoBehaviour:
@@ -1802,9 +1802,9 @@ RectTransform:
   m_Father: {fileID: 1264057557}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 991.4301, y: -208.07}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 991.4301, y: -558.07}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &664670077
@@ -2573,6 +2573,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc997a6468b3484fb1dc2380fa842f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainPanel: {fileID: 1264057553}
+  vidPanel: {fileID: 0}
+  audioPanel: {fileID: 0}
+  TitleTexts: {fileID: 618138975}
+  mask: {fileID: 664670077}
+  audioPanelAnimator: {fileID: 0}
+  vidPanelAnimator: {fileID: 0}
+  quitPanelAnimator: {fileID: 1972487774}
+  pauseMenu: {fileID: 1336113502}
+  mainMenu: Pausemenu
+  DOFScriptName: DepthOfField
+  AOScriptName: AmbientOcclusion
+  mainCam: {fileID: 0}
+  mainCamObj: {fileID: 0}
+  detailDensity: 0
+  timeScale: 1
+  terrain: {fileID: 0}
+  simpleTerrain: {fileID: 0}
+  aaCombo: {fileID: 0}
+  afCombo: {fileID: 0}
+  fovSlider: {fileID: 0}
+  modelQualSlider: {fileID: 0}
+  terrainQualSlider: {fileID: 0}
+  highQualTreeSlider: {fileID: 0}
+  renderDistSlider: {fileID: 0}
+  terrainDensitySlider: {fileID: 0}
+  shadowDistSlider: {fileID: 0}
+  audioMasterSlider: {fileID: 0}
+  audioMusicSlider: {fileID: 0}
+  audioEffectsSlider: {fileID: 0}
+  masterTexSlider: {fileID: 0}
+  shadowCascadesSlider: {fileID: 0}
+  vSyncToggle: {fileID: 0}
+  aoToggle: {fileID: 0}
+  dofToggle: {fileID: 0}
+  fullscreenToggle: {fileID: 0}
+  presetLabel: {fileID: 0}
+  resolutionLabel: {fileID: 0}
+  LODBias:
+  - 0.3
+  - 0.55
+  - 0.68
+  - 1.09
+  - 1.22
+  - 1.59
+  - 4.37
+  shadowDist:
+  - 12.6
+  - 17.4
+  - 29.7
+  - 82
+  - 110
+  - 338
+  - 800
+  music:
+  - {fileID: 507758448}
+  effects:
+  - {fileID: 507758448}
+  otherUIElements: []
+  hardCodeSomeVideoSettings: 0
+  useSimpleTerrain: 0
+  uiEventSystem: {fileID: 905202958}
+  defualtSelectedVideo: {fileID: 0}
+  defualtSelectedAudio: {fileID: 0}
+  defualtSelectedMain: {fileID: 340058090}
 --- !u!1 &1264057553
 GameObject:
   m_ObjectHideFlags: 0
@@ -3293,7 +3358,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bb3d4a08e44c9c5459f2ba5846c9beba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8576717de2c78b748b6acebf5abe4ee2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3998,9 +4063,9 @@ RectTransform:
   m_Father: {fileID: 1264057557}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 722, y: 66.4}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 369, y: -283.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1972487774

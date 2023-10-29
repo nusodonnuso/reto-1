@@ -9,12 +9,12 @@ public class ControlGeneral : MonoBehaviour
     {
         SceneManager.LoadScene(N_escena);
     }
-
+/*
     public void StopScene()
     {
       Time.timeScale=0f;
     }
-
+*/
       public void PlayScene()
       {
       Time.timeScale=1f;

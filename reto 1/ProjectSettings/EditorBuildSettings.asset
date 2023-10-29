@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Nivel1/Scenes/Reto 1.unity
     guid: 25a528595772f1a48808f4d33ee5e291
   - enabled: 1
-    path: Assets/Scenes/Nivel2.unity
+    path: Assets/Nivel2/Nivel2.unity
     guid: e8567ac328491a54e9546ed4ff310db8
   - enabled: 1
     path: Assets/Nivel1/Interfaces/Escenas/EscenaPerdiste.unity
