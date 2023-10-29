@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6e38168488e7f4342aec166639c9a904
+timeCreated: 1697919791
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Horror Korpus Clean PERSONAL
+  fontNames:
+  - Horror Korpus Clean PERSONAL
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

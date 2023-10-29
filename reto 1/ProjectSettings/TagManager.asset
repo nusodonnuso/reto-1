@@ -7,6 +7,7 @@ TagManager:
   - Puntos
   - Enemigo
   - GameManager
+  - Objeto
   layers:
   - Default
   - TransparentFX

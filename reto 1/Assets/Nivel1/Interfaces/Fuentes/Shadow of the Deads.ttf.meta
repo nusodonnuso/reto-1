@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: be7635e4a5c44b04e8733aae2d28daa2
+timeCreated: 1698185839
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Shadow of the deads
+  fontNames:
+  - Shadow of the deads
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,5 +4,38 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/Menu.unity
+    guid: 90426e5c167c87646b90a3b547b14d8b
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/MenuPrincipal.unity
+    guid: 8478997f74b46d24286af71e83786c8f
+  - enabled: 1
+    path: Assets/Nivel1/Scenes/Reto 1.unity
+    guid: 25a528595772f1a48808f4d33ee5e291
+  - enabled: 1
+    path: Assets/Scenes/Nivel2.unity
+    guid: e8567ac328491a54e9546ed4ff310db8
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/EscenaPerdiste.unity
+    guid: 141b8adda5496734ba9d7f39aefecc9a
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/FelicitacionesJuego.unity
+    guid: 5cd83fac03e1e2f4d927298c534068a8
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/FelicitacionesNivel.unity
+    guid: 9548cca91baaaad4db2fe503f5dbba6e
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/Help.unity
+    guid: d8d626e96ac235445beddfae3db5ae78
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/Information.unity
+    guid: 32da9c7e092f779489b918c25fe5d3e9
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/Options.unity
+    guid: 3dc9b09e30962794f93522468f7b62f7
+  - enabled: 1
+    path: Assets/Nivel1/Interfaces/Escenas/Pausemenu.unity
+    guid: 46a497b1c8dccb642a1c935fad1c4daa
   m_configObjects: {}

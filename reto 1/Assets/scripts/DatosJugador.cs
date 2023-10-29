@@ -22,7 +22,9 @@ public class DatosJugador : MonoBehaviour
         {
             // Aquí activamos el panel de Game Over y detenemos el juego
             panelGameOver.SetActive(true);
+            /*
             Time.timeScale = 0; // Esto detendrá el tiempo en el juego, pausándolo
+            */
         }
     }
 }
